@@ -7,7 +7,7 @@ class AuthService {
 
   AuthService() 
     : _dio = Dio(BaseOptions(
-        baseUrl: 'https://api.asmr.one/api',
+        baseUrl: 'https://api.asmr-300.com/api',
       ));
 
   Future<AuthResp> login(String name, String password) async {

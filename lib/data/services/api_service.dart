@@ -24,7 +24,7 @@ class ApiService {
 
   ApiService()
       : _dio = Dio(BaseOptions(
-          baseUrl: 'https://api.asmr.one/api',
+          baseUrl: 'https://api.asmr-300.com/api',
         )) {
     _dio.interceptors.add(AuthInterceptor());
   }

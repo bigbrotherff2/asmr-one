@@ -1,4 +1,4 @@
-package one.asmr.yuro.lyric
+package one.asmr.asmr.lyric
 
 import android.content.ComponentName
 import android.content.Context

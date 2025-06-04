@@ -1,4 +1,4 @@
-package one.asmr.yuro.lyric
+package one.asmr.asmr.lyric
 
 import android.app.Service
 import android.content.Context
@@ -11,7 +11,7 @@ import android.view.MotionEvent
 import android.view.View
 import android.view.WindowManager
 import android.widget.TextView
-import one.asmr.yuro.R
+import one.asmr.asmr.R
 import android.view.Gravity
 
 class LyricOverlayService : Service() {

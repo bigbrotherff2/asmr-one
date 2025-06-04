@@ -1,6 +1,6 @@
 class Strings {
   // App
-  static const String appName = 'asmr.one';
+  static const String appName = 'asmr-300.com';
 
   // Common
   static const String loading = '加载中...';

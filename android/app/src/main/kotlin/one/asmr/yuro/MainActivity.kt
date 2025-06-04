@@ -1,10 +1,10 @@
-package one.asmr.yuro
+package one.asmr.asmr
 
 import io.flutter.embedding.android.FlutterActivity
 import com.ryanheise.audioservice.AudioServiceActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
-import one.asmr.yuro.lyric.LyricOverlayPlugin
+import one.asmr.asmr.lyric.LyricOverlayPlugin
 
 class MainActivity: AudioServiceActivity() {
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
@@ -12,7 +12,7 @@ class MainActivity: AudioServiceActivity() {
         
         MethodChannel(
             flutterEngine.dartExecutor.binaryMessenger,
-            "one.asmr.yuro/lyric_overlay"
+            "one.asmr.asmr/lyric_overlay"
         ).setMethodCallHandler(LyricOverlayPlugin(this))
     }
 } 

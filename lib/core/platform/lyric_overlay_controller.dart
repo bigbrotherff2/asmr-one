@@ -5,7 +5,7 @@ import 'i_lyric_overlay_controller.dart';
 
 class LyricOverlayController implements ILyricOverlayController {
   static const _tag = 'LyricOverlay';
-  static const _channel = MethodChannel('one.asmr.yuro/lyric_overlay');
+  static const _channel = MethodChannel('one.asmr.asmr/lyric_overlay');
   
   @override
   Future<void> initialize() async {
